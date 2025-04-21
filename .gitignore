@@ -2,3 +2,4 @@ __pycache__
 *.sqlite
 .pytest_cache
 *.pdf
+dist/
