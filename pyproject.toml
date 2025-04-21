@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "arkham-utils"
+version = "0.1.0"
+description = "Arkham Horror LCG utilities"
+authors = ["Ian Su <iansu1979+github@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.29.0"
+Pillow = "^9.5.0"
+fpdf2 = "^2.7.4"
+PyMuPDF = "^1.24.5"
+requests-cache = "^1.2.1"
+platformdirs = "^4.3.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
