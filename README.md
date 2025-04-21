@@ -28,7 +28,7 @@ pdf.write('proxies.pdf')
 
 ## Using OCTGN images
 
-You will need to first download the image packs from <https://ahlcgoctgn.wordpress.com/image-packs/> into your application support directory (`Library/Application Support/arkham_utils` on MacOS).
+You will need to first download the image packs from <https://ahlcgoctgn.wordpress.com/image-packs/> into a subfolder named `o8c` in your application support directory (`Library/Application Support/arkham_utils/o8c` on MacOS).
 
 ```py
 from arkham_utils.octgn import db
