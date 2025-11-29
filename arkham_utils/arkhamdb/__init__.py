@@ -8,7 +8,7 @@ import requests_cache
 from platformdirs import user_cache_dir
 
 requests_cache.install_cache(
-    f'{user_cache_dir('arkham_utils')}/arkhamdb_cache', expire_after=1800)
+    f'{user_cache_dir("arkham_utils")}/arkhamdb_cache', expire_after=1800)
 
 
 class ArkhamDB(object):
